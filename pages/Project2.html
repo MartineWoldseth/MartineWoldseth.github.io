@@ -1,109 +1,120 @@
 <!DOCTYPE html>
 <meta charset="UTF-8">
 <html>
+
 <head>
-    <link rel="stylesheet" href="projectStyle.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="projectStyle.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Martines homepage!</title>
+  <title>Martines homepage!</title>
 </head>
+
 <body>
-    
-    <div id="mySidepanel" class="sidepanel">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="home.html">Home</a>
-        <a href="ProjectOverview.html">Projects</a>
-        <a href="CV.html">CV</a>
-    
+
+  <div id="mySidepanel" class="sidepanel">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="../index.html">Home</a>
+    <a href="ProjectOverview.html">Projects</a>
+    <a href="CV.html">CV</a>
+
+  </div>
+
+  <button class="openbtn" onclick="openNav()">&#9776;</button>
+
+  <script src="scripts.js"></script>
+
+  <h1> IN200: Softwareengeneering med prosjektarbeid</h1>
+
+
+  <h3> Om prosjektet</h3>
+
+  <p> Et tverrfaglig skoleprosjekt hvor vi utviklet en android app som var knyttet til værdata fra MET API.
+    Vår brukergruppe var turgåere.
+    I tillegg til app, skrev vi en full rapport om prosessen
+    Jeg hadde hovedansvaret for brukerene; gjennomføring av datainnsamlinger og brukertester, analyse, evaluering og
+    brukertester.
+    Med en annen designer samarbeidet vi godt for å komme frem til fornuftige metoder å anvende for innsamling av data.
+
+  </p>
+
+  <h3>Prosessen</h3>
+
+  <p> Som innledende datainnsamling gjennomførte vi et videointervju med en DNT turleder.
+    Vi fikk da en muligheten til å tilegne oss litt ideer om hva en turgåer gjør på tur.
+    Vi fikk stilt noen konkrete og fikk gode samtaler som ga oss inspirasjon til en spørreundersøkelse
+    En spørreundersøkelse er en passende metode siden vi ønsket å nå ut til så mange som mulig i målgruppen.
+    Vi fikk mer kvantitativ data feks. “hvor ofte går du på tur?”, “hvor lenge går du på tur?” etc.
+    Dette la grunnlaget for ideer og prototyper for en tur app.
+
+    For testing av prototype benyttet vi oss av Figma slik at brukerene selv kunne interagere med appen.
+    I tillegg brukte vi en spørreundersøkelse med spørsmål om designvalg fra prototypen og for senere testinger gjorde
+    vi det mulig for brukerne å få neste test tilsendt på mail.
+    Siden vi ikke fikk testet fysisk med brukerene var vi ekstra nøye på gode og forståelige beskrivelser og
+    gjennomførte derfor pilottester.
+    Vi lærte og reviderte brukertester før vi sendte den ut til brukerene. Vi benytte oss av denne brukertester to
+    ganger fordi brukerne nå kjente denne og det fungerte godt for å få brukers tilbakemeldinger.
+  </p>
+
+
+
+  <h3> Ferdig produkt</h3>
+
+  <p> Resultatet ble til slutt en gjennomarbeidet tur app hvor brukerene kunne selv opprette en tur, legge til punkter
+    på et kart over hvor de ville gå.
+    Ved opprettet tur kan bruker se vær og farevarsel i turområdet, samt muligheten til å dele turen med andre eller
+    invitere andre brukere til egen tur.
+    Vår app var også 1 av 5 vinnere av prisen beste app (av 42 team) som beviser vårt harde arbeid.
+
+  </p>
+
+  <h3> Hva har jeg lært?</h3>
+
+  <p> Jeg fikk lært masse om hvordan man best kan jobbe i tverrfaglig teams, og med lite mulighet for å møtes fysisk på
+    grunn av pandemien så ble jeg godt kjent med
+    verktøyer som Notion, Slack og Zoom. Dette gjorde sammarbeidet lettere og arbeidet mer effektivt
+    I tillegg har jeg lært litt Figma, android studio og hvordan bruke og få nytte av smidig utviklingsmetoder for best
+    mulig prosjektarbeid.
+
+  </p>
+
+  <div class="flex-container">
+    <div class="contentbox">
+      <img src="../Bilder2000/App3.png">
     </div>
-      
-    <button class="openbtn" onclick="openNav()">&#9776;</button> 
-    
-    <script src ="scripts.js"></script>
-   
-    <h1> IN200: Softwareengeneering med prosjektarbeid</h1>
-
-
-    <h3> Om prosjektet</h3> 
-
-    <p> Et tverrfaglig skoleprosjekt hvor vi utviklet en android app som var knyttet til værdata fra MET API. 
-        Vår brukergruppe var turgåere. 
-        I tillegg til app, skrev vi en full rapport om prosessen
-        Jeg hadde hovedansvaret for brukerene; gjennomføring av datainnsamlinger og brukertester, analyse, evaluering og brukertester. 
-        Med en annen designer samarbeidet vi godt for å komme frem til fornuftige metoder å anvende for innsamling av data.
-              
-    </p>
-
-          <h3>Prosessen</h3>
-
-    <p> Som innledende datainnsamling gjennomførte vi et videointervju med en DNT turleder. 
-        Vi fikk da en muligheten til å tilegne oss litt ideer om hva en turgåer gjør på tur.
-        Vi fikk stilt noen konkrete og fikk gode samtaler som ga oss inspirasjon til en spørreundersøkelse
-        En spørreundersøkelse er en passende metode siden vi ønsket å nå ut til så mange som mulig i målgruppen. 
-        Vi fikk mer kvantitativ data feks. “hvor ofte går du på tur?”, “hvor lenge går du på tur?” etc.  
-        Dette la grunnlaget for ideer og prototyper for en tur app. 
-
-        For testing av prototype benyttet vi oss av Figma slik at brukerene selv kunne interagere med appen.
-        I tillegg brukte vi en spørreundersøkelse med spørsmål om designvalg fra prototypen og for senere testinger gjorde vi det mulig for brukerne å få neste test tilsendt på mail.
-        Siden vi ikke fikk testet fysisk med brukerene var vi ekstra nøye på gode og forståelige beskrivelser og gjennomførte derfor pilottester.
-        Vi lærte og reviderte brukertester før vi sendte den ut til brukerene. Vi benytte oss av denne brukertester to ganger fordi brukerne nå kjente denne og det fungerte godt for å få brukers tilbakemeldinger.
-    </p>
-              
-               
-        
-    <h3> Ferdig produkt</h3>
-
-    <p> Resultatet ble til slutt en gjennomarbeidet tur app hvor brukerene kunne selv opprette en tur, legge til punkter på et kart over hvor de ville gå.
-        Ved opprettet tur kan bruker se vær og farevarsel i turområdet, samt muligheten til å dele turen med andre eller invitere andre brukere til egen tur.
-        Vår app var også 1 av 5 vinnere av prisen beste app (av 42 team) som beviser vårt harde arbeid. 
-            
-    </p>
-       
-    <h3> Hva har jeg lært?</h3>
-
-    <p> Jeg fikk lært masse om hvordan man best kan jobbe i tverrfaglig teams, og med lite mulighet for å møtes fysisk på grunn av pandemien så ble jeg godt kjent med 
-        verktøyer som Notion, Slack og Zoom. Dette gjorde sammarbeidet lettere og arbeidet mer effektivt
-        I tillegg har jeg lært litt Figma, android studio og hvordan bruke og få nytte av smidig utviklingsmetoder for best mulig prosjektarbeid.
-          
-    </p>
-
-    <div class="flex-container">
-      <div class="contentbox">
-        <img src="../Bilder2000/App3.png">
-      </div>
-      <div class="contentbox">
-        <img src="../Bilder2000/app2.png">
-      </div>
-      <div class="contentbox">
-        <img src="../Bilder2000/Survey.png">
-      </div>
-      <div class="contentbox">
-        <img src="../Bilder2000/Spm.png">
-      </div> 
-      <div class="contentbox">
-        <img src="../Bilder2000/Spm2.png">
-      </div>
-      <div class="contentbox">
-        <img src="../Bilder2000/Survey2.png">
-      </div>
-      <div class="contentbox">
-        <img src="../Bilder2000/spm3.png">
-      </div>
-      <div class="contentbox">
-        <img src="../Bilder2000/Survey3.png">
-      </div> 
-      <div class="contentbox">
-        <img src="../Bilder2000/app.png">
-      </div>
-      <div class="contentbox">
-        <img src="../Bilder2000/Survey4.png">
-      </div> 
-      <div class="contentbox">
-        <img src="../Bilder2000/spm4.png">
-      </div> 
+    <div class="contentbox">
+      <img src="../Bilder2000/app2.png">
     </div>
-  
-      
+    <div class="contentbox">
+      <img src="../Bilder2000/Survey.png">
+    </div>
+    <div class="contentbox">
+      <img src="../Bilder2000/Spm.png">
+    </div>
+    <div class="contentbox">
+      <img src="../Bilder2000/Spm2.png">
+    </div>
+    <div class="contentbox">
+      <img src="../Bilder2000/Survey2.png">
+    </div>
+    <div class="contentbox">
+      <img src="../Bilder2000/spm3.png">
+    </div>
+    <div class="contentbox">
+      <img src="../Bilder2000/Survey3.png">
+    </div>
+    <div class="contentbox">
+      <img src="../Bilder2000/app.png">
+    </div>
+    <div class="contentbox">
+      <img src="../Bilder2000/Survey4.png">
+    </div>
+    <div class="contentbox">
+      <img src="../Bilder2000/spm4.png">
+    </div>
+  </div>
+
+
 
 </body>
+
 </html>
