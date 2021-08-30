@@ -1,2 +1,2 @@
-# MartineWoldseth.github.io
-My personal website
+# Martine Woldseth
+My personal website at https://www.martinewoldseth.com
