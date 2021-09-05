@@ -11,20 +11,31 @@ body {
   margin-right: auto;
   width: 18%;
   border-radius: 50%;
-  border:  0.09em solid rgb(57, 38, 63);
-
+  border: 0.09em solid rgb(57, 38, 63);
+}
+a {
+  margin: 20px;
+  padding-bottom: 5px;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  font-size: 22px;
+  color: rgb(80, 29, 95);
+  font-weight: bold;
+}
+a:hover {
+  color: slategrey;
 }
 
-
-h1{
+h1 {
   display: block;
   text-align: center;
 }
-h4{
+h4 {
   display: block;
   text-align: center;
 }
-p{
+p {
   display: block;
   text-align: center;
   font-size: 20px;
@@ -78,12 +89,10 @@ p{
   border-radius: 10px;
 }
 
-
 .openbtn:hover {
   background-color: #444;
 }
-embed{
+embed {
   margin: auto;
   display: block;
- 
 }
