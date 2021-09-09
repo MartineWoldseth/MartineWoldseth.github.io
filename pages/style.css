@@ -13,7 +13,7 @@ body {
   border-radius: 50%;
   border: 0.09em solid rgb(57, 38, 63);
 }
-a {
+.link a {
   margin: 20px;
   padding-bottom: 5px;
   text-align: center;
