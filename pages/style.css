@@ -96,3 +96,8 @@ embed {
   margin: auto;
   display: block;
 }
+
+.textbox-content {
+  margin-left: 15%;
+  margin-right: 15%;
+}
