@@ -1,89 +1,86 @@
+* {
+  box-sizing: border-box;
+}
 
-  * {
-    box-sizing: border-box;
-  }
-  
-  body {
-    background-color: #f1f1f1;
-    padding: 20px;
-    font-family: Arial;
-  }
- 
-  /* Center website */
-  .main {
-    max-width: 1000px;
-    margin: auto;
-    background-color: #f1f1f1
-  }
-  
-  h1 {
-    font-size: 50px;
-    text-align: center;
-    word-break: break-all;
-  }
-  h4{
-    display: block;
-    text-align: center;
-  }
-  p{
-    display: block;
-    text-align: center;
-  }
-  
-  .row {
-    margin: 8px -16px;
-  }
-  
-  /* Add padding BETWEEN each column (if you want) */
-  .row,
-  .row > .column {
-    padding: 10px;
-    
-  }
-  
-  /* Create four equal columns that floats next to each other */
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+  background-color: #f1f1f1;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  word-break: break-all;
+}
+h4 {
+  display: block;
+  text-align: center;
+}
+p {
+  display: block;
+  text-align: center;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+  padding: 10px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+  border-radius: 20px;
+  height: 400px;
+  width: 240px;
+}
+
+.content:hover {
+  background-color: rgba(173, 127, 177, 0.466);
+  opacity: 3px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
   .column {
-    float: left;
-    width: 25%;
+    width: 40%;
   }
-  
-  /* Clear floats after rows */ 
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  /* Content */
-  .content {
-    background-color: white;
-    padding: 10px;
-    border-radius: 20px;
-    height: 400px;
-    width: 240px;
+}
 
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
   }
+}
 
-  .content:hover{
-    background-color: rgba(173, 127, 177, 0.466);
-    opacity: 3px;
-  }
-  
-  /* Responsive layout - makes a two column-layout instead of four columns */
-  @media screen and (max-width: 900px) {
-    .column {
-      width: 80%;
-    }
-  }
-  
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
-    }
-  }
-
-  /* The sidepanel menu */
+/* The sidepanel menu */
 .sidepanel {
   height: 250px; /* Specify a height */
   width: 0; /* 0 width - change this with JavaScript */

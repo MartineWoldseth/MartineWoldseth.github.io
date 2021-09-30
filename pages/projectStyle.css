@@ -154,13 +154,13 @@ p {
   height: 500px;
 }
 #imgID {
-  width: 1050px;
-  height: 500px;
+  width: 80%;
+  height: 80%;
 }
 /*timeline*/
 .timeline img {
-  width: 800px;
-  height: 300px;
+  width: 100%;
+  height: 100%;
   border-radius: 10px;
 }
 .timeline {
