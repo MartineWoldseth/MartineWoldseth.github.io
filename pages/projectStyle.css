@@ -76,16 +76,16 @@ p {
 
 /* The sidepanel menu */
 .sidepanel {
-  height: 250px; /* Specify a height */
-  width: 0; /* 0 width - change this with JavaScript */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Stay on top */
+  height: 250px;
+  width: 0;
+  position: fixed;
+  z-index: 1;
   top: 0;
   left: 0;
-  background-color: #111; /* Black*/
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 60px; /* Place content 60px from the top */
-  transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
 }
 
 /* The sidepanel links */
@@ -114,17 +114,18 @@ p {
 
 /* Style the button that is used to open the sidepanel */
 .openbtn {
-  font-size: 20px;
+  font-size: 30px;
   cursor: pointer;
   background-color: rgb(75, 73, 75);
   color: white;
-  padding: 10px 15px;
+  padding: 15px 20px;
+  margin: 10px 10px;
   border: none;
   border-radius: 10px;
 }
 
 .openbtn:hover {
-  background-color: #444;
+  background-color: rgb(46, 45, 45);
 }
 
 .flex-container {
@@ -156,6 +157,7 @@ p {
 #imgID {
   width: 80%;
   height: 80%;
+  padding-left: 7%;
 }
 /*timeline*/
 .timeline img {
@@ -163,6 +165,7 @@ p {
   height: 100%;
   border-radius: 10px;
 }
+
 .timeline {
   margin-left: 5%;
   margin-right: 5%;
@@ -182,4 +185,17 @@ p {
 
 .column {
   flex-direction: column;
+}
+
+.survey img {
+  width: 200px;
+  height: 300px;
+  padding: 5px;
+  border-radius: 10px;
+}
+#funksjonalitet {
+  width: 500px;
+  height: 300px;
+  padding: 5px;
+  border-radius: 10px;
 }
