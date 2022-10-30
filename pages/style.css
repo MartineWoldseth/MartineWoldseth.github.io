@@ -16,8 +16,7 @@ body {
 }
 
 .link {
-  width: 100px;
-  margin-left: 170px;
+  text-align: center;
 
 }
 
@@ -25,11 +24,12 @@ body {
   margin: 20px;
   padding-bottom: 5px;
   text-align: center;
-  display: block;
   text-decoration: none;
   font-size: 22px;
   color: rgb(30, 1, 39);
   font-weight: bold;
+  width: fit-content;
+
 }
 
 a:hover {
